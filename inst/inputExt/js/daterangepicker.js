@@ -21,14 +21,14 @@
         this.ranges = {};
         this.opens = 'right';
         this.cb = function () { };
-        this.format = 'MM/dd/yyyy';
+        this.format = 'dd/MM/yyyy';
         this.locale = {
-            applyLabel:"Apply",
-            fromLabel:"From",
-            toLabel:"To",
-            customRangeLabel:"Custom Range",
-            daysOfWeek:['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr','Sa'],
-            monthNames:['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            applyLabel:"Aplicar",
+            fromLabel:"Desde",
+            toLabel:"Hasta",
+            customRangeLabel:"Rango personalizado",
+            daysOfWeek:['D', 'L', 'M', 'M', 'J', 'V','S'],
+            monthNames:['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre'],
             firstDay:0
         };
 
